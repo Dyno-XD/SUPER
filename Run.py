@@ -1,9 +1,6 @@
 import os, sys, time
-G = "\u001b[32;1m"
-WH = "\u001b[0m"
-Y = "\u001b[33;1m"
-print("{Y} Update Chaking...")
+print("\u001b[33;1m Update Chaking...")
 time.sleep(1.5)
-print("{G} Update Success ✓ {WH} ")
+print("\u001b[32;1m Update Success ✓ \u001b[0m ")
 os.system(" git pull")
 import SUPER
